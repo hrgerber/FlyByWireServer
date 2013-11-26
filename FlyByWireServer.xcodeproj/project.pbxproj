@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33B369861845532B00D0A1F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B369851845532B00D0A1F6 /* Cocoa.framework */; };
+		33B369901845532B00D0A1F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33B3698E1845532B00D0A1F6 /* InfoPlist.strings */; };
+		33B369921845532B00D0A1F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B369911845532B00D0A1F6 /* main.m */; };
+		33B369961845532B00D0A1F6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 33B369941845532B00D0A1F6 /* Credits.rtf */; };
+		33B369991845532B00D0A1F6 /* ABAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B369981845532B00D0A1F6 /* ABAppDelegate.m */; };
+		33B3699C1845532B00D0A1F6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B3699A1845532B00D0A1F6 /* MainMenu.xib */; };
+		33B3699E1845532B00D0A1F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B3699D1845532B00D0A1F6 /* Images.xcassets */; };
+		33B369A51845532B00D0A1F6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B369A41845532B00D0A1F6 /* XCTest.framework */; };
+		33B369A61845532B00D0A1F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B369851845532B00D0A1F6 /* Cocoa.framework */; };
+		33B369AE1845532B00D0A1F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33B369AC1845532B00D0A1F6 /* InfoPlist.strings */; };
+		33B369B01845532B00D0A1F6 /* FlyByWireServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B369AF1845532B00D0A1F6 /* FlyByWireServerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33B369A71845532B00D0A1F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33B3697A1845532B00D0A1F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33B369811845532B00D0A1F6;
+			remoteInfo = FlyByWireServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33B369821845532B00D0A1F6 /* FlyByWireServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyByWireServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B369851845532B00D0A1F6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		33B369881845532B00D0A1F6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		33B369891845532B00D0A1F6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		33B3698A1845532B00D0A1F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33B3698D1845532B00D0A1F6 /* FlyByWireServer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlyByWireServer-Info.plist"; sourceTree = "<group>"; };
+		33B3698F1845532B00D0A1F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33B369911845532B00D0A1F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33B369931845532B00D0A1F6 /* FlyByWireServer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlyByWireServer-Prefix.pch"; sourceTree = "<group>"; };
+		33B369951845532B00D0A1F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		33B369971845532B00D0A1F6 /* ABAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABAppDelegate.h; sourceTree = "<group>"; };
+		33B369981845532B00D0A1F6 /* ABAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABAppDelegate.m; sourceTree = "<group>"; };
+		33B3699B1845532B00D0A1F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		33B3699D1845532B00D0A1F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33B369A31845532B00D0A1F6 /* FlyByWireServerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyByWireServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B369A41845532B00D0A1F6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		33B369AB1845532B00D0A1F6 /* FlyByWireServerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlyByWireServerTests-Info.plist"; sourceTree = "<group>"; };
+		33B369AD1845532B00D0A1F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33B369AF1845532B00D0A1F6 /* FlyByWireServerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyByWireServerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33B3697F1845532B00D0A1F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B369861845532B00D0A1F6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B369A01845532B00D0A1F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B369A61845532B00D0A1F6 /* Cocoa.framework in Frameworks */,
+				33B369A51845532B00D0A1F6 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33B369791845532B00D0A1F6 = {
+			isa = PBXGroup;
+			children = (
+				33B3698B1845532B00D0A1F6 /* FlyByWireServer */,
+				33B369A91845532B00D0A1F6 /* FlyByWireServerTests */,
+				33B369841845532B00D0A1F6 /* Frameworks */,
+				33B369831845532B00D0A1F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33B369831845532B00D0A1F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33B369821845532B00D0A1F6 /* FlyByWireServer.app */,
+				33B369A31845532B00D0A1F6 /* FlyByWireServerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33B369841845532B00D0A1F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33B369851845532B00D0A1F6 /* Cocoa.framework */,
+				33B369A41845532B00D0A1F6 /* XCTest.framework */,
+				33B369871845532B00D0A1F6 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33B369871845532B00D0A1F6 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33B369881845532B00D0A1F6 /* AppKit.framework */,
+				33B369891845532B00D0A1F6 /* CoreData.framework */,
+				33B3698A1845532B00D0A1F6 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		33B3698B1845532B00D0A1F6 /* FlyByWireServer */ = {
+			isa = PBXGroup;
+			children = (
+				33B369971845532B00D0A1F6 /* ABAppDelegate.h */,
+				33B369981845532B00D0A1F6 /* ABAppDelegate.m */,
+				33B3699A1845532B00D0A1F6 /* MainMenu.xib */,
+				33B3699D1845532B00D0A1F6 /* Images.xcassets */,
+				33B3698C1845532B00D0A1F6 /* Supporting Files */,
+			);
+			path = FlyByWireServer;
+			sourceTree = "<group>";
+		};
+		33B3698C1845532B00D0A1F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33B3698D1845532B00D0A1F6 /* FlyByWireServer-Info.plist */,
+				33B3698E1845532B00D0A1F6 /* InfoPlist.strings */,
+				33B369911845532B00D0A1F6 /* main.m */,
+				33B369931845532B00D0A1F6 /* FlyByWireServer-Prefix.pch */,
+				33B369941845532B00D0A1F6 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33B369A91845532B00D0A1F6 /* FlyByWireServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				33B369AF1845532B00D0A1F6 /* FlyByWireServerTests.m */,
+				33B369AA1845532B00D0A1F6 /* Supporting Files */,
+			);
+			path = FlyByWireServerTests;
+			sourceTree = "<group>";
+		};
+		33B369AA1845532B00D0A1F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33B369AB1845532B00D0A1F6 /* FlyByWireServerTests-Info.plist */,
+				33B369AC1845532B00D0A1F6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33B369811845532B00D0A1F6 /* FlyByWireServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B369B31845532B00D0A1F6 /* Build configuration list for PBXNativeTarget "FlyByWireServer" */;
+			buildPhases = (
+				33B3697E1845532B00D0A1F6 /* Sources */,
+				33B3697F1845532B00D0A1F6 /* Frameworks */,
+				33B369801845532B00D0A1F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyByWireServer;
+			productName = FlyByWireServer;
+			productReference = 33B369821845532B00D0A1F6 /* FlyByWireServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33B369A21845532B00D0A1F6 /* FlyByWireServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B369B61845532B00D0A1F6 /* Build configuration list for PBXNativeTarget "FlyByWireServerTests" */;
+			buildPhases = (
+				33B3699F1845532B00D0A1F6 /* Sources */,
+				33B369A01845532B00D0A1F6 /* Frameworks */,
+				33B369A11845532B00D0A1F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33B369A81845532B00D0A1F6 /* PBXTargetDependency */,
+			);
+			name = FlyByWireServerTests;
+			productName = FlyByWireServerTests;
+			productReference = 33B369A31845532B00D0A1F6 /* FlyByWireServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33B3697A1845532B00D0A1F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Retief Gerber";
+				TargetAttributes = {
+					33B369A21845532B00D0A1F6 = {
+						TestTargetID = 33B369811845532B00D0A1F6;
+					};
+				};
+			};
+			buildConfigurationList = 33B3697D1845532B00D0A1F6 /* Build configuration list for PBXProject "FlyByWireServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33B369791845532B00D0A1F6;
+			productRefGroup = 33B369831845532B00D0A1F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33B369811845532B00D0A1F6 /* FlyByWireServer */,
+				33B369A21845532B00D0A1F6 /* FlyByWireServerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33B369801845532B00D0A1F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B369901845532B00D0A1F6 /* InfoPlist.strings in Resources */,
+				33B3699E1845532B00D0A1F6 /* Images.xcassets in Resources */,
+				33B369961845532B00D0A1F6 /* Credits.rtf in Resources */,
+				33B3699C1845532B00D0A1F6 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B369A11845532B00D0A1F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B369AE1845532B00D0A1F6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33B3697E1845532B00D0A1F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B369921845532B00D0A1F6 /* main.m in Sources */,
+				33B369991845532B00D0A1F6 /* ABAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B3699F1845532B00D0A1F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B369B01845532B00D0A1F6 /* FlyByWireServerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33B369A81845532B00D0A1F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33B369811845532B00D0A1F6 /* FlyByWireServer */;
+			targetProxy = 33B369A71845532B00D0A1F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33B3698E1845532B00D0A1F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B3698F1845532B00D0A1F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33B369941845532B00D0A1F6 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B369951845532B00D0A1F6 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		33B3699A1845532B00D0A1F6 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B3699B1845532B00D0A1F6 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		33B369AC1845532B00D0A1F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B369AD1845532B00D0A1F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33B369B11845532B00D0A1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		33B369B21845532B00D0A1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		33B369B41845532B00D0A1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyByWireServer/FlyByWireServer-Prefix.pch";
+				INFOPLIST_FILE = "FlyByWireServer/FlyByWireServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33B369B51845532B00D0A1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyByWireServer/FlyByWireServer-Prefix.pch";
+				INFOPLIST_FILE = "FlyByWireServer/FlyByWireServer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		33B369B71845532B00D0A1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlyByWireServer.app/Contents/MacOS/FlyByWireServer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyByWireServer/FlyByWireServer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FlyByWireServerTests/FlyByWireServerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		33B369B81845532B00D0A1F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FlyByWireServer.app/Contents/MacOS/FlyByWireServer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlyByWireServer/FlyByWireServer-Prefix.pch";
+				INFOPLIST_FILE = "FlyByWireServerTests/FlyByWireServerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33B3697D1845532B00D0A1F6 /* Build configuration list for PBXProject "FlyByWireServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B369B11845532B00D0A1F6 /* Debug */,
+				33B369B21845532B00D0A1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B369B31845532B00D0A1F6 /* Build configuration list for PBXNativeTarget "FlyByWireServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B369B41845532B00D0A1F6 /* Debug */,
+				33B369B51845532B00D0A1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33B369B61845532B00D0A1F6 /* Build configuration list for PBXNativeTarget "FlyByWireServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B369B71845532B00D0A1F6 /* Debug */,
+				33B369B81845532B00D0A1F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33B3697A1845532B00D0A1F6 /* Project object */;
+}

@@ -10,6 +10,14 @@
 
 @interface ABAppDelegate : NSObject <NSApplicationDelegate>
 
+
+@property (assign, nonatomic) BOOL running;
+
+@property (strong, nonatomic) NSStatusItem *statusItem;
+
+@property (strong, nonatomic) IBOutlet NSMenu *statusMenu;
+@property (weak) IBOutlet NSMenuItem *startStopMenuItem;
+
 @property (assign) IBOutlet NSWindow *window;
 
 @end

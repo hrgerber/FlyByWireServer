@@ -18,6 +18,13 @@
 		33B369A61845532B00D0A1F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B369851845532B00D0A1F6 /* Cocoa.framework */; };
 		33B369AE1845532B00D0A1F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33B369AC1845532B00D0A1F6 /* InfoPlist.strings */; };
 		33B369B01845532B00D0A1F6 /* FlyByWireServerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B369AF1845532B00D0A1F6 /* FlyByWireServerTests.m */; };
+		9B4005E618461DDB00D269D4 /* ABFlyByWireNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4005E518461DDB00D269D4 /* ABFlyByWireNetworkService.m */; };
+		9B8B3F9F184BD019008D7552 /* ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8B3F9E184BD019008D7552 /* ipad.png */; };
+		9B8B3FA1184BD0A8008D7552 /* controller.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8B3FA0184BD0A8008D7552 /* controller.png */; };
+		9B8B3FA3184BD0F8008D7552 /* loopback.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B8B3FA2184BD0F8008D7552 /* loopback.png */; };
+		9BD8F6F0184B5C42009FA97D /* iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD8F6EA184B5C42009FA97D /* iphone.png */; };
+		9BD8F6F5184B5DD8009FA97D /* screen-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD8F6F3184B5DD8009FA97D /* screen-active.png */; };
+		9BD8F6F6184B5DD8009FA97D /* screen-inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD8F6F4184B5DD8009FA97D /* screen-inactive.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +57,14 @@
 		33B369AB1845532B00D0A1F6 /* FlyByWireServerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlyByWireServerTests-Info.plist"; sourceTree = "<group>"; };
 		33B369AD1845532B00D0A1F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		33B369AF1845532B00D0A1F6 /* FlyByWireServerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyByWireServerTests.m; sourceTree = "<group>"; };
+		9B4005E418461DDB00D269D4 /* ABFlyByWireNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFlyByWireNetworkService.h; sourceTree = "<group>"; };
+		9B4005E518461DDB00D269D4 /* ABFlyByWireNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFlyByWireNetworkService.m; sourceTree = "<group>"; };
+		9B8B3F9E184BD019008D7552 /* ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad.png; sourceTree = "<group>"; };
+		9B8B3FA0184BD0A8008D7552 /* controller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controller.png; sourceTree = "<group>"; };
+		9B8B3FA2184BD0F8008D7552 /* loopback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loopback.png; sourceTree = "<group>"; };
+		9BD8F6EA184B5C42009FA97D /* iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone.png; sourceTree = "<group>"; };
+		9BD8F6F3184B5DD8009FA97D /* screen-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-active.png"; sourceTree = "<group>"; };
+		9BD8F6F4184B5DD8009FA97D /* screen-inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "screen-inactive.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +135,9 @@
 				33B3699A1845532B00D0A1F6 /* MainMenu.xib */,
 				33B3699D1845532B00D0A1F6 /* Images.xcassets */,
 				33B3698C1845532B00D0A1F6 /* Supporting Files */,
+				9B4005E418461DDB00D269D4 /* ABFlyByWireNetworkService.h */,
+				9B4005E518461DDB00D269D4 /* ABFlyByWireNetworkService.m */,
+				9BD8F6E6184B5C42009FA97D /* images */,
 			);
 			path = FlyByWireServer;
 			sourceTree = "<group>";
@@ -152,6 +170,19 @@
 				33B369AC1845532B00D0A1F6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BD8F6E6184B5C42009FA97D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9B8B3FA2184BD0F8008D7552 /* loopback.png */,
+				9B8B3FA0184BD0A8008D7552 /* controller.png */,
+				9B8B3F9E184BD019008D7552 /* ipad.png */,
+				9BD8F6F3184B5DD8009FA97D /* screen-active.png */,
+				9BD8F6F4184B5DD8009FA97D /* screen-inactive.png */,
+				9BD8F6EA184B5C42009FA97D /* iphone.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +262,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD8F6F0184B5C42009FA97D /* iphone.png in Resources */,
 				33B369901845532B00D0A1F6 /* InfoPlist.strings in Resources */,
+				9BD8F6F5184B5DD8009FA97D /* screen-active.png in Resources */,
 				33B3699E1845532B00D0A1F6 /* Images.xcassets in Resources */,
+				9B8B3F9F184BD019008D7552 /* ipad.png in Resources */,
 				33B369961845532B00D0A1F6 /* Credits.rtf in Resources */,
+				9B8B3FA1184BD0A8008D7552 /* controller.png in Resources */,
+				9BD8F6F6184B5DD8009FA97D /* screen-inactive.png in Resources */,
+				9B8B3FA3184BD0F8008D7552 /* loopback.png in Resources */,
 				33B3699C1845532B00D0A1F6 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B4005E618461DDB00D269D4 /* ABFlyByWireNetworkService.m in Sources */,
 				33B369921845532B00D0A1F6 /* main.m in Sources */,
 				33B369991845532B00D0A1F6 /* ABAppDelegate.m in Sources */,
 			);
@@ -388,6 +426,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlyByWireServer/FlyByWireServer-Prefix.pch";
 				INFOPLIST_FILE = "FlyByWireServer/FlyByWireServer-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -401,6 +440,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlyByWireServer/FlyByWireServer-Prefix.pch";
 				INFOPLIST_FILE = "FlyByWireServer/FlyByWireServer-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -422,6 +462,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "FlyByWireServerTests/FlyByWireServerTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -440,6 +481,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FlyByWireServer/FlyByWireServer-Prefix.pch";
 				INFOPLIST_FILE = "FlyByWireServerTests/FlyByWireServerTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -465,6 +507,7 @@
 				33B369B51845532B00D0A1F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33B369B61845532B00D0A1F6 /* Build configuration list for PBXNativeTarget "FlyByWireServerTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +516,7 @@
 				33B369B81845532B00D0A1F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,8 +2,8 @@
 //  FlyByWireServerTests.m
 //  FlyByWireServerTests
 //
-//  Created by NioCAD on 2013/11/27.
-//  Copyright (c) 2013 Retief Gerber. All rights reserved.
+//  Created by Retief Gerber on 2013/11/30.
+//  Copyright (c) 2013 abductive. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

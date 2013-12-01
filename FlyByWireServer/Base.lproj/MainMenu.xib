@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4510" systemVersion="12F45" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
+        <deployment defaultVersion="1080" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4510"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -13,10 +14,16 @@
         <customObject id="-3" userLabel="Application"/>
         <menu id="0Pr-uU-PSc">
             <items>
-                <menuItem title="Start" id="5gP-2I-9yH">
+                <menuItem title="Pause" id="5gP-2I-9yH">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
-                        <action selector="startStopAction:" target="494" id="Q09-iz-IiO"/>
+                        <action selector="pauseResumeAction:" target="494" id="fcw-cM-9di"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Preferences..." hidden="YES" enabled="NO" id="qoE-8H-raS">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="preferencesAction:" target="494" id="g26-Ac-eqd"/>
                     </connections>
                 </menuItem>
                 <menuItem title="Quit" id="avo-ct-YZq">
